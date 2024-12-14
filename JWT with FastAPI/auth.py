@@ -26,7 +26,7 @@ class CreateUserRequest(BaseModel):
     password: str
 
 class Token(BaseModel):
-    access_type: str
+    access_token: str
     token_type: str
     
 def get_db():
